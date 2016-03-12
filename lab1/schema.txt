@@ -1,0 +1,47 @@
+-- Gavin Mack
+-- Downtown Video Database
+CREATE TABLE DVcustomer (
+first VARCHAR(30),
+last VARCHAR(30),
+email VARCHAR(50),
+addr_id INT,
+DVcust_id INT,
+PRIMARY KEY(DVcust_id)
+);
+CREATE TABLE address (
+street VARCHAR(50),
+city VARCHAR(40),
+state CHAR(2),
+postal_code INT,
+phone INT,
+addr_id INT,
+PRIMARY KEY(addr_id)
+);
+CREATE TABLE film (
+title VARCHAR(50),
+description VARCHAR(255),
+rating FLOAT,
+length TIME,
+film_id INT,
+PRIMARY KEY(film_id)
+);
+
+-- City Books Database
+CREATE TABLE author (
+first VARCHAR(30),
+last VARCHAR(30),
+auth_id INT,
+PRIMARY KEY(auth_id)
+);
+CREATE TABLE book (
+title VARCHAR(255),
+auth_id INT,
+PRIMARY KEY(title)
+);
+CREATE TABLE CBcustomer (
+first VARCHAR(30),
+last VARCHAR(30),
+phone INT,
+CBcust_id INT,
+PRIMARY KEY(CBcust_id)
+);

@@ -1,0 +1,95 @@
+--Query 3.4.1 results
+
+first_name | last_name 
+------------+-----------
+ Laurie     | Lawrence
+ Doris      | Reed
+ Lawrence   | Lawton
+ Marc       | Outlaw
+ Marilyn    | Ross
+ Judy       | Gray
+ Lillian    | Griffin
+ Jane       | Bennett
+ Tim        | Cary
+ Ramona     | Hale
+ Diana      | Alexander
+ Pamela     | Baker
+ Lydia      | Burke
+ Lonnie     | Tirado
+ Eleanor    | Hunt
+ Joe        | Gilliland
+ Constance  | Reid
+ Christina  | Ramirez
+ Deanna     | Byrd
+ Terrence   | Gunderson
+ Mathew     | Bolin
+ Andy       | Vanhorn
+ Milton     | Howland
+(23 rows)
+
+--Query 3.4.2 results
+    phone     
+--------------
+ 912257250465
+ 499352017190
+ 107137400143
+ 407733804223
+ 918711376618
+ 701457319790
+ 6171054059
+ 412903167998
+ 354615066969
+ 956188728558
+ 588964509072
+ 686015532180
+ 265153400632
+ 429925609431
+ 53912826864
+ 845378657301
+ 195337700615
+ 465897838272
+ 441628280920
+ 754579047924
+ 784907335610
+ 995527378381
+ 935952366111
+(23 rows)
+
+--Query 3.4.3 results
+
+ first_name | last_name 
+------------+-----------
+ Julia      | Flores
+ Florence   | Woods
+ Willie     | Howell
+ Jason      | Morrissey
+ Willie     | Markham
+ Leonard    | Schofield
+ Micheal    | Forman
+ Darryl     | Ashcraft
+ Jordan     | Archuleta
+ Perry      | Swafford
+(10 rows)
+
+--Query 3.4.4 results
+ rating | ct  
+--------+-----
+ G      | 178
+(1 row)
+
+
+--Query 3.4.5 results 
+--(this result may vary if there are more than one author who has written same number of books)
+   first_name   | last_name 
+----------------+-----------
+ Nevil          | Shute
+ W. Somerset    | Maugham
+ Stephen        | Fry
+ Brian          | Keenan
+ Margaret       | Mitchell
+ William Butler | Yeats
+ Julia          | Mcqueen
+ Louis          | Bromfield
+ Laurie R.      | King
+ Christian      | Gable
+(10 rows)
