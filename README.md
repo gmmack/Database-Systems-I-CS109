@@ -1,3 +1,3 @@
 # Database-Systems-I-CS180
 
-Labs/assignments from Database Systems I taken at UCSC
+Labs/assignments from Database Systems I taken at UCSC in Winter '15
